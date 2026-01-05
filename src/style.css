@@ -334,6 +334,11 @@ footer .footer-grid {
   main {
     text-align: center;
   }
+
+  main h3 {
+    font-size: 25px;
+  }
+
   section {
     padding: 30px;
   }
