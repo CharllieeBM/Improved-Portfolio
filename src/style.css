@@ -257,9 +257,9 @@ footer li {
 }
 
 footer a {
-  color: white;
+  color: #000;
   opacity: 0.7;
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
 }
 
