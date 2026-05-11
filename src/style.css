@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #d3d4d5;
+  background-color: #F9F9F7;
   padding: 20px;
 }
 
@@ -8,7 +8,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0px 80px;
-  background: #d3d4d5;
+  background: #F9F9F7;
   border-radius: 8px;
 }
 
@@ -115,16 +115,16 @@ section h3 {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 50px;
+  padding: 50px 50px 30px 50px;
 }
 
 section.secondary {
-  background-color: #d3d4d5;
+  background-color: #F9F9F7;
   border-radius: 5px;
   margin: 0 auto;
-  /* margin-left: 50px;
-  margin-right: 60px; */
+  padding-top: 10px;
 }
+
 section.secondary h3 {
   font-weight: 620;
 }
@@ -136,10 +136,11 @@ section.secondary h5 {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
     url("../media/Personal-Banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   color: white;
   text-align: center;
   padding: 200px 0;
@@ -182,7 +183,7 @@ header a {
 }
 
 main {
-  background-color: #d3d4d5;
+  background-color: #F9F9F7;
 }
 
 main h2 {
@@ -227,6 +228,43 @@ main p {
   line-height: 1.5;
   color: #022735;
   opacity: 0.7;
+}
+
+section.featured {
+  background-color: #F9F9F7;
+  border-radius: 8px;
+  border: 2px solid #1c4293;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px;
+}
+
+section.featured h2 {
+  text-align: center;
+}
+
+section.featured h3 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.featured-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+footer {
+  border-top: 1px solid #1c4293;
+  padding: 20px 0;
+  margin-top: 20px;
 }
 
 footer h4 {
@@ -359,5 +397,12 @@ footer .footer-grid {
     display: inline-block;
     margin: 0;
     padding: 0;
+  }
+  section.featured {
+    padding: 30px;
+  }
+
+  .featured-img {
+    margin-top: 20px;
   }
 }
